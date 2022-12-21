@@ -6,10 +6,10 @@ body {
     height: 150px;
     background: url(../../imagens/detalhe-topo.png) no-repeat right top;
     padding-top: 25px;
-    border: 1px solid red;
+    
 }
 
-.logo {
+.topo_logo {
     width: 152px;
     height: 66px;
     background: url(../../imagens/logo.png) no-repeat center;
