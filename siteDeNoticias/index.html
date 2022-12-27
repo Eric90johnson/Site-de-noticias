@@ -10,13 +10,17 @@
         <link rel="stylesheet" type="text/css" href="../siteDeNoticias/css/estilo.css">
         <link rel="stylesheet" type="text/css" href="../siteDeNoticias/css/header/topo.css">
         <link rel="stylesheet" type="text/css" href="../siteDeNoticias/css/header/navegacao.css">
+        <link rel="stylesheet" href="../siteDeNoticias/css/main/lateral.css">
+        <link rel="stylesheet" href="../siteDeNoticias/css/main/primario.css">
+        <link rel="stylesheet" href="../siteDeNoticias/css/main/secundario.css">
+        <link rel="stylesheet" href="../siteDeNoticias/css/footer/rodape.css">
         
 
     </head>
     <body class="home">
-        <header>
-            <div id="container">
-                <div id="topo">
+        <div id="container">
+            <header id="topo">            
+                <div >
                     <h1 class="topo_logo">Notícias cidade</h1>
 
                     <ul id="topo_navegacao">
@@ -41,11 +45,41 @@
                         <li>
                             <a id="fotos" href="fotos.html">Fotos</a>
                         </li>
-                    </ul>
+                    </ul>                
                 </div>
-            </div>
-        </header>
+            </header>
+
+            <div id="conteudo">
+                <main id="primario">
+                    <div>
+                        conteudo primario    
+                    </div>
+                </main>
         
+                <aside id="secundario">
+                    <div>
+                        secundario    
+                    </div>
+                </aside>                       
+                    
+                <aside id="lateral">
+                    <div>
+                        lateral    
+                    </div>
+                </aside>        
+            </div>
+        </div>
+        <div>
+            <footer id="container-rodape" style="clear: both;">
+                <div id="rodape">
+                    &copy; Copyright 2000-2022 Notícias Cidades
+                </div>
+                
+            </footer>
+        </div>
+        
+        
+
 
     </body>
 </html>
