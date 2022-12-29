@@ -1,6 +1,20 @@
+/*Estilo para pagina com tres colunas*/
 #primario {
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
+    background: blue;
+}
+
+/*Estilo para pagina com duas colunas*/
+#duas-colunas #primario {
+    width: 555px;
+    background: blue;
+}
+
+/*Estilo para pagina com uma coluna*/
+#uma-coluna #primario {
+    width: 750px;    
+    margin: 0 0 20px 0;
     background: blue;
 }
