@@ -26,3 +26,17 @@ body {
     background: #294c71;
     padding: 20px;
 }
+
+/*formatação dos cabeçalhos*/
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaques h3 {
+    background: #b10333;
+    color: #fff;
+}

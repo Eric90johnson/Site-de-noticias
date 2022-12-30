@@ -2,5 +2,11 @@
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: green;
+    /*background: green;*/
+}
+
+/*formatação dos cabeçalhos*/
+.entrevista h3 {
+    background: #b10333;
+    color: #fff;
 }

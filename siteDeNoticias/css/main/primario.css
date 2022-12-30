@@ -3,18 +3,75 @@
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
+    /*background: blue;*/
 }
 
 /*Estilo para pagina com duas colunas*/
 #duas-colunas #primario {
     width: 555px;
-    background: blue;
+    /*background: blue;*/
 }
 
 /*Estilo para pagina com uma coluna*/
 #uma-coluna #primario {
     width: 750px;    
     margin: 0 0 20px 0;
-    background: blue;
+    /*background: blue;*/
+}
+
+/*Estilos das imagens*/
+
+img.imagem-principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/*formatação dos cabeçalhos*/
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaques h3 {
+    background: #b10333;
+    color: #fff;
+
+}
+
+/*Estilo para as listas das colunas*/
+
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;    
+}
+
+#lista-noticias li a  {
+    text-decoration: none;
+    
+}
+
+#lista-noticias li a h3  {   
+    background: none;        
+    font-size: 0.8em;
+    padding: 0;
+    color: blue; 
+}
+
+#lista-noticias li a p  {    
+    font-size: 0.7em;
+}
+
+#lista-noticias li:hover  {    
+    background: #eee;
+    cursor: pointer;
+
 }
